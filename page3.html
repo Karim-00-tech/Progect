@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('mazo00.jpg'); /* خلفية الصورة */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* نص أبيض */
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .phenomenon {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .phenomenon img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .phenomenon img:hover {
+            transform: scale(1.1); /* تكبير الصورة عند التمرير */
+        }
+
+        .phenomenon p {
+            display: none; /* إخفاء الوصف في البداية */
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+        }
+
+        /* زر التحكم في الموسيقى */
+        .music-control {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* لون الزر */
+            color: white; /* لون النص */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .music-control:hover {
+            background-color: #45a049; /* لون عند التمرير فوق الزر */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- زر التحكم في الموسيقى -->
+    <button class="music-control" onclick="toggleMusic()">Toggle Music</button>
+
+    <!-- معرض الصور -->
+    <div class="gallery">
+        <div class="phenomenon" id="phenomenon1 ">
+          <a href="phenomeon1.html">  <img src="phenomenon1.png.png" alt="ظاهرة 1" onclick="openPage('phenomenon1.html')"> </a>
+            <p id="description1" style="display: none;">وصف الظاهرة 1.</p>
+        </div>
+        <div class="phenomenon" id="phenomenon2">
+            <a href="phenomeon2.html"> <img src="phenomenon2.png.png" alt="ظاهرة 2" onclick="openPage('phenomenon2.html') ">
+            <p id="description2" style="display: none;">وصف الظاهرة 2.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon3">
+            <a href="indexphenomeon3.html"> <img src="phenomenon3.png.png" alt="ظاهرة 3" onclick="openPage('phenomenon3.html')">
+            <p id="description3" style="display: none;">وصف الظاهرة 3.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon4">
+            <a href="phenomeon4.html"> <img src="phenomenon4.png.png" alt="ظاهرة 4" onclick="openPage('phenomenon4.html')">
+            <p id="description4" style="display: none;">وصف الظاهرة 4.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon5">
+            <a href="phenomeon5.html"> <img src="phenomenon5.png.png" alt="ظاهرة 5" onclick="openPage('phenomenon5.html')">
+            <p id="description5" style="display: none;">وصف الظاهرة 5.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon6">
+            <a href="phenomeon6.html"> <img src="phenomenon6.png.png" alt="ظاهرة 6" onclick="openPage('phenomenon6.html')">
+            <p id="description6" style="display: none;">وصف الظاهرة 6.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon7">
+            <a href="phenomeon7.html"></a><img src="phenomenon7.png.png" alt="ظاهرة 7" onclick="openPage('phenomeon7.html')">
+            <p id="description7" style="display: none;">وصف الظاهرة 7.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon8">
+            <a href="phenomeon8.html"> <img src="phenomenon8.png.png" alt="ظاهرة 8" onclick="openPage('phenomenon8.html')">
+            <p id="description8" style="display: none;">وصف الظاهرة 8.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon9">
+            <a href="phenomeon9.html">  <img src="phenomenon9.png.png" alt="ظاهرة 9" onclick="openPage('phenomenon9.html')">
+            <p id="description9" style="display: none;">وصف الظاهرة 9.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon10">
+            <a href="phenomeon10.html">  <img src="phenomenon10.png.png" alt="ظاهرة 10" onclick="openPage('phenomenon10.html')">
+            <p id="description10" style="display: none;">وصف الظاهرة 10.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon11">
+            <a href="phenomeon11.html"><img src="phenomenon11.png.png" alt="ظاهرة 11" onclick="openPage('phenomenon11.html')">
+            <p id="description11" style="display: none;">وصف الظاهرة 11.</p>
+        </div>
+    
+        <div class="phenomenon" id="phenomenon12">
+            <a href="phenomeon12.html"> <img src="phenomenon12.png.png" alt="ظاهرة 12" onclick="openPage('phenomenon12.html')">
+            <p id="description12" style="display: none;">وصف الظاهرة 12.</p>
+        </div>
+    
+        <!-- أضف المزيد من الظواهر حسب الحاجة -->
+    </div>
+
+    <!-- عنصر الموسيقى -->
+    <audio id="backgroundMusic" loop>
+        <source src="yasso00.mp3" type="audio/mpeg"> <!-- ضع اسم ملف الموسيقى هنا -->
+        Your browser does not support the audio tag.
+    </audio>
+
+    <script>
+        // دالة لفتح صفحة جديدة عند الضغط على الصورة
+        function openPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+
+        // تشغيل/إيقاف الموسيقى
+        function toggleMusic() {
+            const music = document.getElementById('backgroundMusic');
+            if (music.paused) {
+                music.play();
+            } else {
+                music.pause();
+            }
+        }
+    </script>
+</body>
+</html>
+ئ
+
+
+

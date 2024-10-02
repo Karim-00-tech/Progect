@@ -1,0 +1,177 @@
+/* إعدادات الصفحة العامة */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* النص المركزي المضيء */
+.center-text {
+    text-align: center;
+}
+
+.glow {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    animation: glowing 1.5s infinite;
+}
+
+/* تأثير الإضاءة على النص */
+@keyframes glowing {
+    0% { text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white; }
+    50% { text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white; }
+    100% { text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white; }
+}
+/* إعدادات أضواء الصفحة */
+.lights-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.light {
+    width: 50px;
+    height: 100px;
+    background-color: yellow;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+/* إعدادات فيديو التلسكوب */
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* تأثير الانطفاء */
+/* إعدادات الصفحة العامة */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('2008'); /* هنا ضع رابط صورة الفضاء التي تريدها */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* النص المركزي المضيء */
+.center-text {
+    text-align: center;
+}
+
+.glow {
+    font-size: 3rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    animation: glowing 1.5s infinite;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* تأثير الإضاءة على النص */
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff; }
+    50% { box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff; }
+    100% { box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; }
+}
+
+/* التأثير عند مرور الفأرة على النص */
+.glow:hover {
+    background-color: #ff00ff;
+    color: black;
+}
+/* إعدادات الصفحة العامة */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('2008'); /* ضع رابط صورة الخلفية هنا */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* النص المركزي المضيء */
+.center-text {
+    text-align: center;
+}
+
+.glow {
+    font-size: 3rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    animation: glowing 1.5s infinite;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+/* تأثير الإضاءة على النص (باللون الأبيض) */
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff; }
+    50% { box-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff; }
+    100% { box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; }
+}
+
+/* التأثير عند مرور الفأرة على النص */
+.glow:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* تنسيق الفيديو */
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* تأكد أن الفيديو يظهر فوق النجوم */
+}
+
+video {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('kimo00.jpg'); /* هنا ضع اسم الصورة */
+    background-size: cover; /* لجعل الصورة تغطي كامل الخلفية */
+    background-position: center; /* لجعل الصورة تتمركز في الخلفية */
+    background-repeat: no-repeat; /* لمنع تكرار الصورة */
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+The James Webb Space Telescope (JWST) is the most powerful space telescope ever built, primarily designed to observe the universe in infrared light. Unlike its predecessor, the Hubble Space Telescope, which mainly captured images in visible light, JWST can see deeper into space by detecting infrared radiation. This allows it to peer through cosmic dust clouds, observe the formation of stars and planets, and study distant galaxies from the early universe.
+JWST’s enormous 6.5-meter primary mirror, made of 18 hexagonal segments coated with gold, is designed to capture faint infrared light from distant celestial objects. These mirror segments are made of beryllium, a lightweight material, and are perfectly aligned using precise actuators to function as one large mirror. To protect its sensitive instruments from the Sun’s heat, JWST is equipped with a large sunshield, roughly the size of a tennis court, which helps maintain the telescope's instruments at extremely low temperatures.
+Positioned about 1.5 million kilometers from Earth at a location called Lagrange Point 2 (L2), JWST orbits the Sun while maintaining a stable orientation to observe the cosmos without interference from the Earth or Moon's light. This positioning allows it to stay extremely cold, enhancing its ability to detect faint infrared signals from distant galaxies and exoplanets(
+NASA Technical Reports Server
+)( 
+NASA Technical Reports Server
+)(
+ NASA Space Place
+)(
+NASA Science
+).
+
+https://ntrs.nasa.gov/api/citations/20040171280/downloads/20040171280.pdf
+https://science.nasa.gov/mission/webb/webbs-mirrors/
+
+https://spaceplace.nasa.gov/james-webb-space-telescope/en/
+
+https://ntrs.nasa.gov/api/citations/20200001556/downloads/20200001556.pdf
+https://ntrs.nasa.gov/api/citations/20230009106/downloads/Design%20of%20JWST%20Final%20in%20Publication.pdf
+
+https://ntrs.nasa.gov/api/citations/20230009106/downloads/Design%20of%20JWST%20Final%20in%20Publication.pdf
+

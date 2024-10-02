@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أنيميشن فضائي</title>
+    <link rel="stylesheet" href="style2.css"> <!-- ربط ملف CSS -->
+    <style>
+        .center-text {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .glow {
+            display: inline-block;
+            padding: 12px 24px; /* تعديل حجم الزر */
+            font-size: 18px; /* تكبير النص داخل الزر */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50; /* لون خلفية الزر */
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .glow:hover {
+            background-color: #45a049; /* لون عند التمرير فوق الزر */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+        }
+
+        .video-container {
+            text-align: center; /* توسيط الفيديو */
+            margin: 20px 0; /* إضافة مساحة حول الفيديو */
+        }
+
+        .next-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-of-star1">
+        <div class="star star-position1"></div>
+        <div class="star star-position2"></div>
+        <div class="star star-position3"></div>
+        <div class="star star-position4"></div>
+        <div class="star star-position5"></div>
+        <div class="star star-position6"></div>
+        <div class="star star-position7"></div>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rs7JR5GUfqI?si=8pMwHolFJshs1G5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="next-container">
+        <a href="page3.html" class="glow">Next Page</a>
+    </div>
+</body>
+</html>
